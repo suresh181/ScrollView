@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/sv_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:id="@+id/ll_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_firstname"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_firstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:hint="@string/tv_firstname"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_Lastname"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_lastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tv_Lastname" />
+
+            <TextView
+                android:id="@+id/tv_dob"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/date_of_birth"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/date_of_birth" />
+
+            <TextView
+                android:id="@+id/tv_gender"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/gender"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/sp_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_father"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_fathername"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_father"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tv_fathername" />
+
+            <TextView
+                android:id="@+id/tv_mother"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_mothername"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_mother"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/mother_name" />
+
+            <TextView
+                android:id="@+id/tv_mobile"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/mobile_number"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/mobile_number"
+                 />
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email" />
+
+            <TextView
+                android:id="@+id/tv_hsc"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/hsc"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/sp_hsc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_degree"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/degree"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <AutoCompleteTextView
+                android:id="@+id/atv_degree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tv_degreePer"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/degree_percentage"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <AutoCompleteTextView
+                android:id="@+id/atv_degreePer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submit"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

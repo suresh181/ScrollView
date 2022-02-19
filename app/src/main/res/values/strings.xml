@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">ScrollView&amp;ListView</string>
+    <string name="first_name">First Name</string>
+    <string name="lastname">LastName</string>
+    <string name="tv_firstname">First Name</string>
+    <string name="tv_Lastname">Last Name</string>
+    <string name="tv_fathername">Father Name</string>
+    <string name="et_fathername">Father Name</string>
+    <string name="mother_name">Mother Name</string>
+    <string name="tv_mothername">Mother Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="email">Email</string>
+    <string name="hsc">HSC</string>
+    <string name="gender">Gender</string>
+    <string name="degree">Degree</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="degree_percentage">Degree Percentage</string>
+    <string name="submit">Submit</string>
+    <string name="selected">You have Selected</string>
+    <string-array name="gender">
+        <item> </item>
+        <item>Male </item>
+        <item> Female </item>
+        <item> Other </item>
+    </string-array>
+
+    <string-array name="degree">
+        <item> </item>
+        <item>B.Tech </item>
+        <item>B.Arts</item>
+        <item>B.Arch </item>
+        <item>Master of Laws </item>
+        <item>Doctor of Medicine </item>
+    </string-array>
+    <string-array name="percentage">
+        <item> </item>
+        <item> 4.0</item>
+        <item> 4.1</item>
+        <item>4.2 </item>
+        <item> 4.3</item>
+        <item> 4.4</item>
+        <item>4.5 </item>
+        <item> 4.6</item>
+        <item> 4.7</item>
+        <item> 4.8</item>
+        <item> 4.9</item>
+        <item>5.0 </item>
+        <item>5.1 </item>
+        <item> 5.2</item>
+        <item> 5.3</item>
+        <item> 5.4</item>
+        <item> 5.5</item>
+        <item> 5.6</item>
+        <item> 5.7</item>
+        <item> 5.8</item>
+        <item> 5.9</item>
+        <item> 6.0</item>
+        <item> 6.1</item>
+        <item> 6.2</item>
+        <item> 6.3</item>
+        <item> 6.4</item>
+        <item> 6.5</item>
+        <item> 6.6</item>
+        <item>6.7 </item>
+        <item> 6.8</item>
+        <item> 6.9</item>
+        <item> 7.0</item>
+        <item>7.1 </item>
+        <item>7.2 </item>
+        <item> 7.3</item>
+        <item> 7.4</item>
+        <item> 7.5</item>
+        <item> 7.6</item>
+        <item>7.7 </item>
+        <item>7.8 </item>
+        <item>7.9 </item>
+        <item>8.0 </item>
+        <item>8.1 </item>
+        <item>8.2 </item>
+        <item> 8.3</item>
+        <item> 8.4</item>
+        <item>8.5 </item>
+        <item>8.6 </item>
+        <item>8.7 </item>
+        <item>8.8 </item>
+        <item>8.9 </item>
+        <item>9.0 </item>
+        <item>9.1 </item>
+        <item>9.2 </item>
+        <item>9.3 </item>
+        <item>9.4 </item>
+        <item>9.5 </item>
+        <item>9.6 </item>
+        <item>9.7 </item>
+        <item>9.8 </item>
+        <item>9.9 </item>
+        <item> 10</item>
+
+    </string-array>
+</resources>
